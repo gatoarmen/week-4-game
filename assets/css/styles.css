@@ -1,0 +1,52 @@
+body {
+  background-image: url("../images/background_img.jpg");
+}
+header {
+  background-color: aliceblue;
+  position: relative;
+  width: 50%;
+  padding-top: 13x;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 10px;
+}
+header h1 {
+  color: green;
+}
+section {
+  position: relative;
+  width: 50%;
+  margin: 10px;
+  padding: 7px;
+}
+.instructions {
+  background-color: blanchedalmond;
+}
+.score {
+  overflow: hidden;
+}
+.score .random-number {
+  background-color: green;
+  max-width: 210px;
+  width: 100%;
+  padding-bottom: 100px;
+  float: left;
+}
+.score .marcador {
+  background-color: aqua;
+  max-width: 160px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.final {
+  position: relative;
+  width: 45%;
+}
+.final div {
+  margin-bottom: 10px;
+  background-color: orange;
+  max-width: 330px;
+}
+.final .total {
+  padding-bottom: 80px;
+}
